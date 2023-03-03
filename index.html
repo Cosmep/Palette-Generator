@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Paleta de colores</title>
+</head>
+<body>
+
+  <div class="paleta" id="paleta">
+    <h1>-Paleta de Colores-</h1>
+
+    <div class="buttons" id="buttons">
+      <button class="btn1" onclick="paleteGenerator()">Generar</button> 
+      <button class="btn3" onclick="location.reload()">Limpiar</button>
+    </div>
+           
+    <div class="container" >  
+
+      <div  class="color-card">
+        <div class="color" id="color1"></div>
+      </br>  
+        <label class="color_1">#</label>             
+      </div>
+     
+      <div>
+        <div class="color" id="color2"></div>
+      </br>  
+        <label  class="color_1">#</label>              
+      </div>
+
+      <div>
+        <div class="color" id="color3"></div>
+      </br>  
+        <label  class="color_1">#</label>              
+      </div>
+     
+      <div>
+        <div class="color" id="color4"></div>
+      </br>  
+        <label  class="color_1">#</label>             
+      </div>
+     
+      <div>
+        <div class="color" id="color5"></div>
+      </br>  
+        <label  class="color_1">#</label>            
+      </div>
+     
+      <div>
+        <div class="color" id="color6"></div>
+      </br>  
+        <label  class="color_1">#</label>              
+      </div>
+      
+      <div>
+        <div class="color" id="color6"></div>
+      </br>  
+        <label  class="color_1">#</label>              
+      </div> 
+
+      <div>
+        <div class="color" id="color6"></div>
+      </br>  
+        <label  class="color_1">#</label>              
+      </div> 
+
+    </div> 
+
+    
+    <div class="containerKeep">
+      <button class="btn2" onclick="paleteKeep()">Guardar</button> 
+      <input type="text" id="txtMyPalette" placeholder="Elija un nombre."><br>
+      
+    </div>
+ </div>
+ 
+  <div class="containerShow">    
+    <h1>-seleccion-</h1>
+    <div class="containerShowRun"></div>
+</div>
+ 
+
+<script src="./js/main.js"></script>   
+</body>
+</html>
